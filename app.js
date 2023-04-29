@@ -8,6 +8,9 @@ const menu = document.getElementById('menu')
 const item = document.getElementById('item-2');
 const bg_color = document.querySelector('.bg_color')
 const box = document.getElementById('box')
+const list = document.getElementById('list')
+const wel = document.getElementById('welcome')
+
 function print(){
     let name="Body"
     document.write(name)
@@ -45,4 +48,16 @@ function highlight(x){
 }
 function unhighlight(x){
     x.style.background="white"
+}
+
+
+list.addEventListener('change',getMenu)
+wel.addEventListener('click',Welcome)
+
+function getMenu(){
+    display.innerText = list.value;
+
+}
+function Welcome(){
+    alert("Welcome to my webpage")
 }
