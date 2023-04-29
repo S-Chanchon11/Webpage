@@ -35,8 +35,14 @@ function switchMode(){
 }
 
 
-function deleteItem(){
+function deleteItem(x){
     menu.removeChild(item);
 
 }
 
+function highlight(x){
+    x.style.background="aqua"
+}
+function unhighlight(x){
+    x.style.background="white"
+}
