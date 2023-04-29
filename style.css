@@ -13,11 +13,11 @@
     background: black;
 }
 
-.darkmode{
-    border: 2px solid white;
+.darkMode{
+    /*border:20px solid red;*/
     background-color: black;
-    color: aqua;
+    color: white;
     padding: 30px;
     margin: 15px;
-    
+
 }
