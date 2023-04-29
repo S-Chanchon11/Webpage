@@ -13,3 +13,11 @@
     background: black;
 }
 
+.darkmode{
+    border: 2px solid white;
+    background-color: black;
+    color: aqua;
+    padding: 30px;
+    margin: 15px;
+    
+}
